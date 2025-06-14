@@ -20,34 +20,16 @@ A fullstack web application built to enable hyperlocal commerce in closed commun
 
 | Layer        | Technology               |
 |--------------|---------------------------|
-| Frontend     | React, Vite, Tailwind CSS |
+| Frontend     | React, Tailwind CSS       |
 | Backend      | Node.js, Express.js       |
 | Database     | MongoDB with Mongoose     |
 | State Mgmt   | Context API               |
 | Auth         | JWT, Bcrypt               |
 | File Upload  | Multer                    |
-| Dev Tools    | ESLint, Prettier          |
+
 
 ---
 
-## 📂 Folder Structure
-
-/app
-├── src/ # React App (Vite-based)
-│ ├── components/ # Reusable UI Components
-│ ├── context/ # Context API logic
-│ └── assets/ # Images and static files
-│
-├── server/ # Express Backend
-│ ├── routes/ # API Endpoints
-│ ├── models/ # MongoDB Models
-│ ├── services/ # Business Logic
-│ ├── middleware/ # Auth & Error Handlers
-│ ├── uploads/ # Image Uploads
-│ └── config/ # DB Connection & Config
-│
-├── .env # Environment Variables
-└── vite.config.js # Vite Build Config
 
 
 
